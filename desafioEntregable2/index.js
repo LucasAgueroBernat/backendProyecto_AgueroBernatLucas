@@ -6,11 +6,13 @@ const env = async () => {
     const productos = await manager.getProduct();
     console.log(usuarios);
 
-    const user = {
-        nombre: 'Lucas',
-        apellido: 'Aguero',
-        edad: 29,
-        curso: 'Backend'
+    const product = {
+        title: 'Casco Star Wars',
+        description: 'Casco de star wars para todas las edades',
+        price: 29.00,
+        thumbnails: 'img',
+        code:jhkljhklj,
+        stock:100,
     };
 
     await manager.updateUser(user);
