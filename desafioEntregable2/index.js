@@ -23,7 +23,7 @@ const env = async () => {
     //Agrego el producto 2
     const product2 = {
         title: 'Funco AHSOKA TANO',
-        description: 'Funko Pop Ahsoka 467 Star Wars Special Edition Linea Pop!, Producto Original Funko',
+        description: 'Funco AHSOKA TANO Star Wars , Marca: Funko-Pop!, Modelo: 873, Producto Original, Nuevo - Cerrado',
         price: 22000,
         thumbnail: 'http2.mlstatic.com/D_NQ_NP_912640-MLA50844906885_072022-O.webp',
         code: 'xyz999',

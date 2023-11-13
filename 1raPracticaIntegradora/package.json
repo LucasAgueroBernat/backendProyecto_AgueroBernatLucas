@@ -1,20 +1,18 @@
 {
-  "name": "segundapreentrega",
+  "name": "1rapracticaintegradora",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/app.js"
-    
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
   "dependencies": {
     "express": "^4.18.2",
     "express-handlebars": "^7.1.2",
-    "mongoose": "^8.0.0"
+    "mongoose": "^7.6.3"
   }
 }

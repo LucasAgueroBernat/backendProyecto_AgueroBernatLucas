@@ -79,7 +79,7 @@ router.delete('/:cid/products/:pid', async (req, res) => {
     }
 });
 
-//ARREGLAR 
+
 //Actualiza un carrito con un arreglo de productos
 router.put('/:cid ', async (req, res) => {
     try {
@@ -94,7 +94,7 @@ router.put('/:cid ', async (req, res) => {
     }
 })
 
-//ARREGLAR
+
 // Actualiza la cantidad de ejemplares directamente en la base de datos
 router.put('/:cid/products/:pid', async (req, res) => {
     try {
@@ -116,7 +116,7 @@ router.put('/:cid/products/:pid', async (req, res) => {
     }
 });
 
-//ARREGLAR
+
 //Elimina todos los productos del carrito seleccionado
 router.delete('/:cid', async (req, res) => {
     try {
